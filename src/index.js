@@ -10,6 +10,7 @@ module.exports = {
     recommended: {
       rules: {
         'destructuring/no-rename': 'error',
+        'destructuring/in-params': 'error',
       },
     },
   },

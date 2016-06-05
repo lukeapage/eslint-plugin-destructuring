@@ -1,6 +1,6 @@
-# no-rename
+# in-params
 
-When destructuring an object, you can provide the variable name in order to have the variable name differ from the object property.
+When destructuring an object, you can provide the variable name in order to have the variable name differ from the object property. This can produce confusing code that is harder to read that ES5 code, therefore this rule prevents it.
 
 ## Rule Details
 

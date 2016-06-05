@@ -36,13 +36,14 @@ Rules are divided into categories for your convenience. All rules are off by def
 ### Stylistic Issues
 These rules are purely matters of style and are quite subjective.
 * [no-rename](docs/rules/no-rename.md): Forbid rename syntax when object destructuring.
+* [in-params](docs/rules/in-params.md): Configure destructuring within parameters.
 
 # Contributing
 Contributions are always welcome!.
 
 # License
 
-ESLint-plugin-lodash is licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
+eslint-plugin-destructuring is licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
 
 [npm-url]: https://npmjs.org/package/eslint-plugin-destructuring
 [npm-image]: http://img.shields.io/npm/v/eslint-plugin-destructuring.svg?style=flat-square
