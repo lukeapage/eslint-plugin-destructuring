@@ -2,6 +2,9 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.1.2] - 2016-06-05
+- Fixed typo from last commit rendering 1.1.1 useless
+
 ## [1.1.1] - 2016-06-05
 ### Fixed
 - Fixed large footprint by using modularised lodash dependency
