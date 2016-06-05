@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import _ from 'lodash';
+import zipObject from 'lodash.zipobject';
 const rules = fs.readdirSync(path.resolve(__dirname, 'rules')).map(f => f.replace(/\.js$/, ''));
 
 module.exports = {

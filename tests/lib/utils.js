@@ -1,4 +1,4 @@
-import _ from 'lodash';
+import defaults from 'lodash.defaults';
 
 export function test(t) {
   return _.defaults(t, {

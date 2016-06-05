@@ -1,6 +1,5 @@
 /* eslint-env mocha */
 import plugin from '../src/index';
-
 import assert from 'assert';
 import fs from 'fs';
 import path from 'path';
