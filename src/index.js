@@ -5,7 +5,7 @@ const rules = fs.readdirSync(path.resolve(__dirname, 'rules')).map(f => f.replac
 
 module.exports = {
   // eslint-disable-next-line global-require
-  rules: _.zipObject(rules, rules.map(rule => require(`./rules/${rule}`))),
+  rules: zipObject(rules, rules.map(rule => require(`./rules/${rule}`))),
   configs: {
     recommended: {
       rules: {

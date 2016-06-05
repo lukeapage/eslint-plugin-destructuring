@@ -1,7 +1,7 @@
 import defaults from 'lodash.defaults';
 
 export function test(t) {
-  return _.defaults(t, {
+  return defaults(t, {
     parserOptions: {
       sourceType: 'module',
       ecmaVersion: 6,
