@@ -2,8 +2,8 @@
 // Requirements
 // ------------------------------------------------------------------------------
 
-import rule from '../../../src/rules/in-params';
 import { RuleTester } from 'eslint';
+import rule from '../../../src/rules/in-params';
 import { test } from '../utils';
 
 // ------------------------------------------------------------------------------

@@ -2,8 +2,8 @@
 // Requirements
 // ------------------------------------------------------------------------------
 
-import rule from '../../../src/rules/no-rename';
 import { RuleTester } from 'eslint';
+import rule from '../../../src/rules/no-rename';
 import { test } from '../utils';
 
 // ------------------------------------------------------------------------------
