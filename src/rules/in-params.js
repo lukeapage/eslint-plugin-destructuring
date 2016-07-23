@@ -25,7 +25,7 @@ module.exports = {
     let maxParams = 1;
 
     if (typeof option === 'object' &&
-      option.hasOwnProperty('max-params') &&
+      Object.prototype.hasOwnProperty.call(option, 'max-params') &&
       typeof option['max-params'] === 'number') {
       maxParams = option['max-params'];
     }
