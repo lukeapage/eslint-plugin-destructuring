@@ -26,16 +26,16 @@ ruleTester.run('no-rename', rule, {
     code: 'var { a : c } = b;',
     errors,
   }),
-  test({
-    code: 'var { a : a } = b;',
-    errors,
-  }),
-  test({
-    code: 'var { a : c } = b;',
-    errors,
-  }),
-  test({
-    code: 'var { a : { c : d } } = b;',
-    errors,
-  })],
+    test({
+      code: 'var { a : a } = b;',
+      errors,
+    }),
+    test({
+      code: 'var { a : c } = b;',
+      errors,
+    }),
+    test({
+      code: 'var { a : { c : d } } = b;',
+      errors,
+    })],
 });

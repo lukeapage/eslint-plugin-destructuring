@@ -29,16 +29,16 @@ ruleTester.run('in-params', rule, {
     code: 'function t({ a }, b) {}',
     errors,
   }),
-  test({
-    code: 'var a = ({a}, b) => a;',
-    errors,
-  }),
-  test({
-    code: 'function t(b, { a }) {}',
-    errors,
-  }),
-  test({
-    code: 'function t(b, { a, d, c }) {}',
-    errors,
-  })],
+    test({
+      code: 'var a = ({a}, b) => a;',
+      errors,
+    }),
+    test({
+      code: 'function t(b, { a }) {}',
+      errors,
+    }),
+    test({
+      code: 'function t(b, { a, d, c }) {}',
+      errors,
+    })],
 });
