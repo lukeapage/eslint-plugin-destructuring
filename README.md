@@ -37,6 +37,7 @@ Rules are divided into categories for your convenience. All rules are off by def
 These rules are purely matters of style and are quite subjective.
 * [no-rename](docs/rules/no-rename.md): Forbid rename syntax when object destructuring.
 * [in-params](docs/rules/in-params.md): Configure destructuring within parameters.
+* [in-methods-params](docs/rules/in-methods-params.md): Forbid destructuring within method parameters.
 
 # Contributing
 Contributions are always welcome!.

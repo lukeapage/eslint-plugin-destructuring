@@ -12,6 +12,7 @@ module.exports = {
       rules: {
         'destructuring/no-rename': 'error',
         'destructuring/in-params': 'error',
+        'destructuring/in-methods-params': 'error',
       },
     },
   },
