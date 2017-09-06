@@ -29,7 +29,7 @@ function t2(a, b) {
   const {c} = a;
   const {d} = b;
 }
-const t3 = ({a}) = a;
+const t3 = ({a}) => a;
 ```
 
 ## When Not To Use It
