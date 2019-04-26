@@ -11,7 +11,7 @@ import { test } from '../utils';
 // ------------------------------------------------------------------------------
 
 const ruleTester = new RuleTester();
-const errors = [{ message: 'Do not use destructuring rename.' }];
+const errors = [{ message: 'Do not use destructuring rename for valid identifiers.' }];
 ruleTester.run('no-rename', rule, {
   valid: [
     test({ code: 'var { a } = b;' }),
@@ -21,6 +21,7 @@ ruleTester.run('no-rename', rule, {
     test({ code: 'var a = { b : b };' }),
     test({ code: 'var a = { b : c };' }),
     test({ code: 'var a = { b : { c : b } };' }),
+    test({ code: 'var { "data-prop" : a } = b;' }),
   ],
   invalid: [test({
     code: 'var { a : c } = b;',
@@ -36,6 +37,10 @@ ruleTester.run('no-rename', rule, {
     }),
     test({
       code: 'var { a : { c : d } } = b;',
+      errors,
+    }),
+    test({
+      code: 'var { "data-prop" : a, a : c } = b;',
       errors,
     })],
 });
