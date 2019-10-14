@@ -2,6 +2,9 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.2.0] - 2019-10-14
+- Allow renaming invalid identifiers
+
 ## [2.1.0] - 2017-02-71
 - Added new 'in-methods-params' rule
 
