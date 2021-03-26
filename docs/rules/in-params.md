@@ -10,12 +10,12 @@ The following patterns are considered problems:
 /*eslint destructuring/in-params: ["error", { "max-params" : 1}]*/
 
 function t1(a, {b}) {}
-const t2 = (b, {a}) = a;
+const t2 = (b, {a}) => a;
 
 /*eslint destructuring/in-params: ["error", { "max-params" : 0}]*/
 
 function t3({a}) {}
-const t4 = ({a}) = a;
+const t4 = ({a}) => a;
 
 ```
 
